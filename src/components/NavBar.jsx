@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState } from 'react'
-import {GiHamburgerMenu} from 'react-icons/gi'
-import {GiCrossMark} from 'react-icons/gi'
+import {GiHamburgerMenu ,GiCrossMark} from 'react-icons/gi'
+
 import {Link} from 'react-scroll'
 const NavBar = () => {
  const[nav ,setNav]=useState(false);
